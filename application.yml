@@ -6,8 +6,10 @@ greeting:
   message: Welcomt to the Simple E-commerce
 
 kafka:
-  ipv4_address: 127.0.0.1:9092
+  ipv4_address: 127.0.0.1:9092  #Local
+#  ipv4_address: 172.18.0.101:9092  #Docker
 
 gateway:
-#  ip: 10.11.6.5
-  ip: 172.18.0.9  # Docker ApiGateway-service 의 ip
+#  ip: 10.11.6.5  #Local
+  ip: 172.18.0.9  #Docker
+
